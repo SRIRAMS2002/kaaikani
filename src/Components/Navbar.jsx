@@ -22,7 +22,7 @@ const Navbar = () => {
               <div className="flex items-center justify-between h-16">
                 <div className="flex items-center">
                   <img
-                    className="h-32 w-28"
+                    className="h-36 w-28"
                     src="/Kaaikani.png"
                     alt="Your Company"
                   />

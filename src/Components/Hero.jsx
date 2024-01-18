@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
           <div className="relative mx-auto max-w-8xl px-4 sm:static sm:px-6 lg:px-8">
             <div className="sm:max-w-lg">
-            <h1 class="sm:mx-auto sm:max-w-lg sm:w-10/12 md:w-2/3 font-black text-black/95 text-4xl text-center sm:text-5xl md:text-6xl lg:w-auto lg:text-left xl:text-5xl ">
+            <h1 class="sm:mx-auto sm:max-w-lg sm:w-10/12 md:w-2/3 font-black text-black/95 text-4xl  sm:text-5xl md:text-6xl lg:w-auto lg:text-left xl:text-5xl ">
             Welcome to Kaaikani{" "}
           </h1>
 

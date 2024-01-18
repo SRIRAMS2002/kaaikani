@@ -5,11 +5,11 @@ const Hero = () => {
     <div>
       <div className="relative overflow-hidden bg-green-200">
         <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
-          <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
+          <div className="relative mx-auto max-w-8xl px-4 sm:static sm:px-6 lg:px-8">
             <div className="sm:max-w-lg">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                Welcome to Kaaikani
-              </h1>
+            <h1 class="sm:mx-auto sm:max-w-lg sm:w-10/12 md:w-2/3 font-black text-black/95 text-4xl text-center sm:text-5xl md:text-6xl lg:w-auto lg:text-left xl:text-5xl ">
+            Welcome to Kaaikani{" "}
+          </h1>
 
               <p className="mt-4 text-xl text-gray-500">
               Experience the pinnacle of convenience with Kaaikani and Elevate your home with Kaaikani Veedu Varai, bringing the market to you!
@@ -27,7 +27,8 @@ const Hero = () => {
                       <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                         <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
                           <img
-                            src="/Hero/1.jpg"
+                            
+                            src="/Hero/5.jpg"
                             alt=""
                             className="h-full w-full object-cover object-center"
                           />
@@ -50,7 +51,7 @@ const Hero = () => {
                         </div>
                         <div className="h-64 w-44 overflow-hidden rounded-lg">
                           <img
-                            src="/Hero/5.jpg"
+                            src="/Hero/1.jpg"
                             alt=""
                             className="h-full w-full object-cover object-center"
                           />
@@ -79,6 +80,18 @@ const Hero = () => {
                           />
                         </div>
                       </div>
+                      <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                        <div className="h-64 w-44 overflow-hidden rounded-lg">
+                          <img
+                            src="/Hero/8.jpg"
+                            alt=""
+                            className="h-full w-full object-cover object-center"
+                          />
+                        </div>
+                       
+                      </div>
+                  
+                        
                     </div>
                   </div>
                 </div>
@@ -87,13 +100,14 @@ const Hero = () => {
                   href="#"
                   className="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700"
                 >
-                  Shop Collection
+                  Get Started
                 </a>
               </div>
             </div>
           </div>
         </div>
       </div>
+
     </div>
   );
 };

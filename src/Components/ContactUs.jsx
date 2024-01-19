@@ -60,6 +60,10 @@ const Footer = () => {
             <a className="my-3 block" href="https://play.google.com/store/apps/details?id=com.kaaikani.kaaikani&pli=1" target="_blank">
            <img src="/GooglePlayStore.svg" alt="" />
             </a>
+
+            <a className="my-3 block" href="https://play.google.com/store/apps/details?id=com.kaaikani.kaaikani&pli=1" target="_blank">
+           <img src="/apple-app-store-badge.svg" className='w-full' alt="" />
+            </a>
            
           </div>
               
@@ -68,8 +72,10 @@ const Footer = () => {
           </dl>
         </div>
       </div>
+     
 {/* Footer Section */}
-      <div class="w-full mx-auto mt-10 my-5 max-w-7xl justify-around text-sm pt-6  flex flex-wrap gap-y-6 gap-4 items-center md:justify-between dark:border-white/10">
+      <div class="w-full mx-auto  my-5 max-w-7xl justify-around text-sm pt-6  flex flex-wrap gap-y-6 gap-4 items-center md:justify-between dark:border-white/10">
+           
             <div class="order-2 sm:order-1 flex items-center gap-3 text-gray-900/50 dark:text-white/50">
                 
                 <span class="w-48 block pt-1">

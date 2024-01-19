@@ -16,17 +16,19 @@ function classNames(...classes) {
 const Navbar = () => {
   return (
     <div>
-      <Disclosure as="nav" className="fixed z-10 inset-x-0 bg-green-600 py-2.5">
+      <Disclosure as="nav" className="fixed z-10 inset-x-0 bg-white py-2.5">
         {({ open }) => (
           <>
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               <div className="flex items-center justify-between h-16">
                 <div className="flex items-center">
+                  <a href="/">
                   <img
                     className="h-36 w-28"
                     src="/Kaaikani.png"
                     alt="Your Company"
                   />
+                  </a>
               
                 </div>
                 <div className="hidden md:flex space-x-4">
@@ -36,9 +38,9 @@ const Navbar = () => {
                       href={item.href}
                       className={classNames(
                         item.current
-                          ? 'text-white'
-                          : 'text-gray-300 hover:text-white',
-                        'px-3 py-2 text-lg font-medium'
+                          ? 'text-green-600'
+                          : 'text-gray-800 hover:text-green-400',
+                        'px-3 py-2 text-lg font-semibold'
                       )}
                     >
                       {item.name}

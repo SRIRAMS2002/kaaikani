@@ -33,11 +33,11 @@ const Recent = () => {
       breakpoints={{
         640: {
           slidesPerView: 1,
-          spaceBetween: 20,
+          spaceBetween: 0,
         },
         768: {
           slidesPerView: 2,
-          spaceBetween: 20,
+          spaceBetween: 0,
         },
         
       }}

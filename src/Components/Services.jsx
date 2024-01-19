@@ -6,9 +6,11 @@ const Services = () => {
       <div class="py-5">
         <div class="xl:container m-auto px-6 text-gray-500 md:px-12">
           <div>
-            <h2 class="mt-4 text-2xl text-center font-bold text-gray-900  md:text-4xl">
-              Services{" "}
-            </h2>
+          <div className="mt-10  flex items-center mx-5 gap-x-4">
+        <div className="h-px flex-auto flex bg-gray-700" />
+              <h4 className=" text-2xl md:text-4xl font-bold  text-center leading-6 text-gray-900"> Services{" "}</h4>
+              <div className="h-px flex-auto bg-gray-700" />
+            </div>
           </div>
           <div class="mt-10 grid divide-x divide-y divide-gray-100 dark:divide-gray-700 overflow-hidden rounded-3xl border border-gray-100 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
             <div class="group relative bg-white dark:bg-gray-600 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">

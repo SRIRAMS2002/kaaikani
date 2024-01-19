@@ -14,8 +14,13 @@ import "swiper/css";
 const Recent = () => {
   return (
     <div className='py-10'>
-          <h2 class="mt-4 text-2xl text-center font-bold text-gray-900  md:text-4xl">
-          Latest Offers{" "}
+      <div className="mt-10  flex items-center mx-5 gap-x-4">
+        <div className="h-px flex-auto flex bg-gray-700" />
+              <h4 className=" text-2xl md:text-4xl font-bold  text-center leading-6 text-gray-900"> Latest Offers{" "}</h4>
+              <div className="h-px flex-auto bg-gray-700" />
+            </div>
+          <h2 class="mt-4  text-gray-900  ">
+         
             </h2>
     
 

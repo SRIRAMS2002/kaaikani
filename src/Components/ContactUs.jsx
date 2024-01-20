@@ -36,14 +36,14 @@ const Footer = () => {
             <div className="flex flex-col items-start">
             <div className="p-5 w-48 text-white">
             <div className="text-lg uppercase text-gray-500 font-medium"></div>
-            <a className="my-3 text-lg block" href="/Founders">
+            <a className="my-3 text-lg block" href="/#About">
               About Us 
             </a>
             
-            <a className="my-3 text-lg block" href="/Mentors">
+            <a className="my-3 text-lg block" href="/#Services">
               Service
             </a>
-            <a className="my-3 text-lg block" href="/Members">
+            <a className="my-3 text-lg block" href="/ContactUs">
               Contact Us
             </a>
            
@@ -83,11 +83,11 @@ const Footer = () => {
                 </span>
             </div>
             <div class="order-first sm:order-2 flex flex-wrap justify-center gap-y-2 gap-x-4 text-gray-500">
-                <a class="transition hover:text-gray-600 dark:hover:text-gray-300" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/srit_mechatrons_/">Terms and Conditions</a>
-                <a class="transition hover:text-gray-600 dark:hover:text-gray-300" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@mechatronssrit902">Privacy Policies</a>
+                <a class="transition hover:text-gray-600 dark:hover:text-gray-300" rel="noopener noreferrer" href="/Terms">Terms and Conditions</a>
+                <a class="transition hover:text-gray-600 dark:hover:text-gray-300"  rel="noopener noreferrer" href="/Privacy">Privacy Policies</a>
 
                 
-                <a class="transition hover:text-gray-600 dark:hover:text-gray-300" href="/contact">Contact</a>
+                <a class="transition hover:text-gray-600 dark:hover:text-gray-300" href="/ContactUs">Contact</a>
             </div>
            
         </div>

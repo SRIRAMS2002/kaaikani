@@ -64,17 +64,18 @@ const Navbar = () => {
 
             <Disclosure.Panel className="md:hidden">
               <div className="px-2 pt-2  pb-3 space-y-1">
-                <div className='text-center'>
+                <div className='flex flex-col text-center'>
                   
                 {navigation.map((item) => (
                   <a
                     key={item.name}
                     href={item.href}
                     className={classNames(
+                    
                       item.current
-                        ? 'text-white'
-                        : 'text-gray-300 hover:text-white',
-                      'block px-3 py-2  text-base font-medium'
+                      ? 'text-green-600'
+                      : 'text-gray-800 hover:text-green-400',
+                    'px-3 py-2 text-lg font-semibold'
                     )}
                   >
                     {item.name}

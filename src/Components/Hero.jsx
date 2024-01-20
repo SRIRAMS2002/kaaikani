@@ -11,7 +11,7 @@ const Hero = () => {
             Greetings to Kaaikani{" "}
           </h1>
 
-              <p className="mt-4 text-xl text-gray-600">
+              <p className="mt-4 text-xl text-gray-800">
               Experience the pinnacle of convenience with Kaaikani and Elevate your home with Kaaikani Veedu Varai, bringing the market to you!
               </p>
             </div>

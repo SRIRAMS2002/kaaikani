@@ -198,7 +198,7 @@ const ContactUs = () => {
                 <a class="transition hover:text-gray-600 dark:hover:text-gray-300" rel="noopener noreferrer" href="/Privacy">Privacy Policies</a>
 
                 
-                <a class="transition hover:text-gray-600 dark:hover:text-gray-300" href="/contact">Contact</a>
+                <a class="transition hover:text-gray-600 dark:hover:text-gray-300" href="/ContactUs">Contact</a>
             </div>
            
         </div>

@@ -51,7 +51,7 @@ const Navbar = () => {
                 </a>
                 </div>
                 <div className="flex items-center md:hidden">
-                  <Disclosure.Button className="text-gray-400 hover:text-white focus:outline-none">
+                  <Disclosure.Button className="text-gray-800 hover:text-gray-600 focus:outline-none">
                     {open ? (
                       <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                     ) : (
@@ -63,7 +63,7 @@ const Navbar = () => {
             </div>
 
             <Disclosure.Panel className="md:hidden">
-              <div className="px-2 pt-2  pb-3 space-y-1">
+              <div className="px-2 pt-2 rounded-xl pb-3 space-y-1">
                 <div className='flex flex-col text-center'>
                   
                 {navigation.map((item) => (

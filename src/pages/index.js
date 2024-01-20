@@ -8,7 +8,7 @@ import Contact from '@/Components/ContactUs';
 import About from '@/Components/About';
 const index = () => {
   return (
-    <div className="bg-[#80b918]">
+    <div className="bg-[#4FE34F]">
 {/*       
       <Demo/> */}
 

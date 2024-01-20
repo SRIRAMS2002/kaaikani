@@ -31,8 +31,8 @@ const ContactUs = () => {
 
     emailjs
       .send(
-        'service',
-        'template_d1a0buq',
+        'service_1ck77v3',
+        'template_pizf5uw',
         {
           from_name: form.name,
           to_name: "Kaaikani",

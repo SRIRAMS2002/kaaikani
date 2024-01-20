@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <div>
-      <div className="relative pt-[2rem] md:pt-[8rem] overflow-hidden">
+      <div className="relative pt-[4rem] md:pt-[8rem] overflow-hidden">
         <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
           <div className="relative mx-auto max-w-8xl px-4 sm:static sm:px-6 lg:px-8">
             <div className="sm:max-w-lg">

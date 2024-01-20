@@ -8,7 +8,7 @@ import Contact from '@/Components/ContactUs';
 import About from '@/Components/About';
 const index = () => {
   return (
-    <div className="bg-[#4FE34F]">
+    <div className=" bg-gradient-to-tr from-white/45 from-5% via-[#A7F1A7]  to-[#1FC71F]  ">
 {/*       
       <Demo/> */}
 

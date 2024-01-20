@@ -3,9 +3,9 @@ import React from "react";
 const About = () => {
   return (
     <div id="About">
-      <div class="py-12 sm:py-20">
+      <div class="py-12 sm:py-20 ">
         <div class="xl:container m-auto px-6 text-gray-600 md:px-12 xl:px-16">
-          <div class="bg-gray-50 dark:lg:bg-darker lg:p-5 rounded-[2.5rem] space-y-6 md:flex md:gap-6 justify-center md:space-y-0 lg:items-center">
+          <div class="bg-gray-50 shadow-lg dark:lg:bg-darker lg:p-5 rounded-[2.5rem] space-y-6 md:flex md:gap-6 justify-center md:space-y-0 lg:items-center">
             <div class="md:5/12 lg:w-1/2">
               <img
                 src="/About-us.png"
